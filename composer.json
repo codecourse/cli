@@ -1,0 +1,17 @@
+{
+    "name": "codecourse/cli",
+    "description": "The official Codecourse CLI",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Alex Garrett-Smith",
+            "email": "alex@codecourse.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.2"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "bin": ["codecourse"]
+}
