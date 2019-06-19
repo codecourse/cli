@@ -36,6 +36,10 @@ Download the `codecourse` binary from this repository and run:
 # php codecourse
 ```
 
+## Known issues
+
+* The Codecourse CLI has not been tested on Windows/Linux platforms yet.
+
 ## Usage
 
 Once installed, run `codecourse` for a list of available commands.
