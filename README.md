@@ -36,9 +36,29 @@ Download the `codecourse` binary from this repository and run:
 # php codecourse
 ```
 
+## Installation (docker)
+
+Download the `codecourse` binary from this repository and run:
+
+```
+$ cd /path/to/downloaded/binary
+$ docker run -it --rm --name codecourse-app -v "$PWD":/app -w /app php:7.3-cli bash
+root@container-id:/app# php codecourse
+```
+
+## Installation (docker-compose)
+
+Download the `codecourse` binary and `docker-compose.yml` file from this repository and run:
+
+```
+$ cd /path/to/downloaded/binary_and_docker-compose_file
+$ docker-compose run app bash
+root@container-id:/app# php codecourse
+```
+
 ## Known issues
 
-* The Codecourse CLI has not been tested on Windows/Linux platforms yet.
+* The Codecourse CLI has not been tested on Windows platforms yet.
 
 ## Usage
 
