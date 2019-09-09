@@ -6,7 +6,7 @@ ___
 
 ## Current features
 
-* `course:download [slug]` Download all videos for a course
+* `download:course [slug]` Download all videos for a course
 
 ## Requirements
 
